@@ -1397,3 +1397,89 @@ body {
     aspect-ratio:4/5;
   }
 }
+
+/* Ivory replaces the remaining espresso surface accents. */
+.site-header,
+.site-header.scrolled {
+  background:rgba(248,245,239,.97);
+  color:var(--espresso);
+  border-bottom-color:rgba(48,35,31,.12);
+  backdrop-filter:blur(12px);
+}
+
+.site-header.scrolled {
+  box-shadow:0 8px 24px rgba(48,35,31,.06);
+}
+
+.header-book {
+  border-color:rgba(48,35,31,.28);
+  background:var(--sand);
+  color:var(--espresso);
+}
+
+.header-book:hover {
+  border-color:var(--greige);
+  background:var(--greige);
+  color:var(--espresso);
+}
+
+.menu-toggle span {
+  background:var(--espresso);
+}
+
+.mobile-menu {
+  background:var(--ivory);
+  color:var(--espresso);
+}
+
+.mobile-menu a {
+  border-bottom-color:rgba(48,35,31,.14);
+}
+
+.mobile-menu .mobile-book {
+  border-color:rgba(48,35,31,.3);
+  background:var(--sand);
+  color:var(--espresso);
+}
+
+.booking {
+  background:var(--ivory);
+  color:var(--espresso);
+}
+
+.booking-intro>p:last-child {
+  color:var(--taupe);
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  border-bottom-color:rgba(48,35,31,.28);
+  color:var(--espresso);
+  color-scheme:light;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  border-bottom-color:var(--taupe);
+}
+
+.form-status,
+.demo-form-note {
+  color:var(--taupe);
+}
+
+.footer {
+  border-top:1px solid var(--greige);
+  background:var(--ivory);
+  color:var(--espresso);
+}
+
+.footer-column h3 {
+  color:var(--taupe);
+}
+
+.footer-bottom {
+  border-top-color:rgba(48,35,31,.16);
+}
